@@ -1,0 +1,20 @@
+O React pode ser utilizado apenas interfaces Web, ou seja, não é possível utilizá-lo em outros ambientes como Mobile por exemplo.
+
+No SSR temos Back-end e Front-end separados, podendo inclusive ter múltiplos Front-ends (Web, mobile, etc.). Já no SPA temos o Back-end e Front-end normalmente unidos em uma única aplicação.
+
+O Babel é um exemplo de compiler para JS bem famoso e sua principal função é pegar sintaxes mais atuais do JS e converter para um código compatível com os Browsers.
+
+No react, qual o lugar ideal para se importar o css dos componentes?
+Nos arquivos jsx.
+
+Qual das opções é a forma correta de nomeação de um componente?
+Header (com a Primeira letra maiúscula)
+
+Qual a forma correta de nomear um arquivo css escopado?
+*.module.css
+
+Qual a forma que utilizamos para importar um arquivo de módulos css?
+import styles from '.styles.module.css'
+
+Nas tags HTML no React, como comumente utilizamos a escrita dos atributos
+Em camelCase(inicial minúscula e as composições com inicial maiúscula)
